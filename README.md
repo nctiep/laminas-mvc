@@ -9,8 +9,15 @@
 
 ```bash
 $ composer create-project -sdev laminas/laminas-mvc-skeleton ./
+$ composer require laminas/laminas-form
+$ composer require laminas/laminas-db
 $ 
+```
+
+```bash
 $ composer require twbs/bootstrap:5.1.0
+$ composer remove vendor/twbs/bootstrap
+$ composer dump-autoload
 ```
 
 ```bash
@@ -33,7 +40,4 @@ $ composer dump-autoload
 
 ## Module
 
-- Category: Partner, Goods
-- System: Config, User
-- Front: Contact, Vote
-- Content: Menu, Content, Block
+- Category: Partner(list+type), Goods(list+type), Rent(list+type), Project

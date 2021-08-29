@@ -13,8 +13,7 @@
         "php": "^7.3 || ~8.0.0",
         "laminas/laminas-component-installer": "^2.4",
         "laminas/laminas-development-mode": "^3.2",
-        "laminas/laminas-mvc": "^3.1.1",
-        "twbs/bootstrap": "5.1.0"
+        "laminas/laminas-mvc": "^3.1.1"
     },
     "autoload": {
         "psr-4": {
@@ -23,10 +22,6 @@
             "Front\\": "module/Front/src/",
             "Category\\": "module/Category/src/",
             "System\\": "module/System/src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
         }
     },
     "scripts": {

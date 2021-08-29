@@ -47,6 +47,11 @@ return [
         // Enabled by default, prevents usage of modules that depend on other modules
         // that weren't loaded.
         // 'check_dependencies' => true,
+        
+        'module_paths' => [
+            './module',
+            './vendor',
+        ],
     ],
 
     // Used to create an own service manager. May contain one or more child arrays.

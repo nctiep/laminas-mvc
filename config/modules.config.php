@@ -9,4 +9,8 @@ return [
     'Laminas\Router',
     'Laminas\Validator',
     'Application',
+    'Category',
+    'Content',
+    'Front',
+    'System',
 ];
